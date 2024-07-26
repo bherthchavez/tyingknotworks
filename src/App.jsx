@@ -8,11 +8,11 @@ function App() {
     <>
       <div className="bg-[#224551] h-screen  flex flex-col justify-between py-5 items-center font-comfortaa">
         <div className=''>
-          <img src={tkwLogo} className='h-[100px] sm:h-[125px]' />
+          <img src={tkwLogo} className='h-[80px] sm:h-[110px]' />
         </div>
         <div className='flex flex-col justify-center text-center'>
-          <h1 className='text-white text-4xl sm:text-7xl'>Coming Soon!</h1>
-          <img src={knot} className='h-[12.5px] sm:h-[25px] mt-1 sm:mt-4' />
+          <h1 className='text-white text-4xl sm:text-6xl'>Coming Soon!</h1>
+          <img src={knot} className='h-[12.5px] sm:h-[21px] mt-1 sm:mt-4' />
          <div className='mt-5'>
           <a
             className="group relative inline-flex items-center overflow-hidden rounded-full border border-current px-8 py-2 text-gray-500 hover:text-gray-400 focus:outline-none"
@@ -34,7 +34,7 @@ function App() {
                 />
               </svg>
             </span>
-            <AiOutlineMail size={24} className='pr-2 mb-1' />
+            <AiOutlineMail size={24} className='pr-2 sm:mb-1' />
             <span className="text-xs transition-all group-hover:me-4 "> Email Us </span>
           </a>
          </div>
