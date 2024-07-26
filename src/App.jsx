@@ -2,12 +2,14 @@ import tkwLogo from '../src/assets/TKW-Logo-Named.png'
 import knot from '../src/assets/knot.png'
 import realknots from '../src/assets/real-knots.png'
 import { AiOutlineMail } from "react-icons/ai";
+import { Analytics } from '@vercel/analytics/react'
 
 function App() {
 
   return (
     <>
-      <div className="bg-[#224551] h-screen  flex flex-col justify-between py-5 items-center font-comfortaa">
+    <main className='font-comfortaa'>
+      <div className="bg-[#224551] h-screen  flex flex-col justify-between py-5 items-center">
         {/* <div className='fixed bottom-1 left-[-100px] sm:left-[0px]'>
           <img src={realknots} className='h-[150px] sm:h-[360px]' />
         </div> */}
@@ -56,6 +58,8 @@ function App() {
 
         </div>
       </div>
+      <Analytics />
+    </main>
     </>
   )
 }
