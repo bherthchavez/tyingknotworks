@@ -15,7 +15,7 @@ function App() {
           <img src={knot} className='h-[12.5px] sm:h-[21px] mt-1 sm:mt-4' />
          <div className='mt-5'>
           <a
-            className="group relative inline-flex items-center overflow-hidden rounded-full border border-current px-8 py-2 text-slate-500 hover:text-slate-400 focus:outline-none"
+            className="group relative inline-flex items-center overflow-hidden rounded-full border border-current px-8 py-2 text-[#527885] hover:text-slate-400 focus:outline-none"
             href='mailto:contact@tyingknotworks.com' target='_blank' rel='noreferrer noopener'
           >
             <span className="absolute -end-full transition-all group-hover:end-4">
